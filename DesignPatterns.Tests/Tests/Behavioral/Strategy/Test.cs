@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Patterns.Behavioral.Strategy;
+﻿
+using DesignPatterns.Patterns.Behavioral.Strategy;
 using Xunit;
 
 namespace DesignPatterns.Tests.Tests.Behavioral.Strategy
@@ -7,7 +8,7 @@ namespace DesignPatterns.Tests.Tests.Behavioral.Strategy
     public class Test
     {
         [Fact]
-        public void When_Payment_Method_Is_Paypal_Checkout_Must_Return_Two_Percent_Commission()
+        public void When_Payment_Method_Is_Paypal_Make_Payment_Must_Return_Two_Percent_Commission()
         {
             //arrange
 
@@ -22,7 +23,7 @@ namespace DesignPatterns.Tests.Tests.Behavioral.Strategy
 
 
         [Fact]
-        public void When_Payment_Method_Is_LocalBank_Checkout_Must_Return_One_Percent_Commission()
+        public void When_Payment_Method_Is_LocalBank_Make_Payment_Must_Return_One_Percent_Commission()
         {
             //arrange
 
